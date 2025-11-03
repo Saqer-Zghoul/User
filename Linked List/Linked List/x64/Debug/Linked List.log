@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Linked List.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  IMP.cpp
+  Linked List.cpp
+  Generating Code...
+  Linked List.vcxproj -> D:\Users\sqr0244478\source\repos\Linked List\x64\Debug\Contiguous List.exe
