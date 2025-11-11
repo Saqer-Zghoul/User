@@ -51,34 +51,22 @@ void clsLinkedList ::AddToFirst(int element) {
     }
     else
         head = tail = new Node(element);
-}/*
-void cList::InsertToPosition(int value, int pos)
-{
-    if (pos < length)
-    {
-        for (int i = length; i > pos; i--)
-        {
-            list[i] = list[i - 1];
-        }
-        list[pos] = value;
-        length++;
-    }
-    else
-    {
-        cout << "the index out of scope " << endl;
-
-    }
 }
-int cList::Search(int value) const
+Node * clsLinkedList::Search(int value) const
 {
-    for (int i = 0; i < length; i++)
+    Node* temp = head;
+    while (temp != 0)
     {
-        if (list[i] == value)
-            return i;
-    }
+        if (temp->val == value)
+            return temp;
+        temp = temp->next;
+  }
 
-    return -1;
+
+    return temp;
 }
+
+/*
 void cList::AddElement(int el, int val) {
 
     if (!IsFull())

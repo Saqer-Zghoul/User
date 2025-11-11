@@ -29,7 +29,7 @@ public:
     void AddToLast(int element);
     void AddToFirst(int element);
     void InsertToPosition(int value, int pos);
-    int Search(int value) const;
+    Node *  Search(int value) const;
     void AddElement(int el, int val);
     void DeleteFirst();
     void DeleteLast();  
